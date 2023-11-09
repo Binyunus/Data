@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Agricultural Extension Service Management</h1>
+
+    <form id="extensionForm">
+      <h2>Extension Office Details</h2>
+      <label for="officeName">Office Name:</label>
+      <input type="text" id="officeName" required>
+  
+      <label for="officeLocation">Office Location:</label>
+      <input type="text" id="officeLocation" required>
+  
+      <input type="submit" value="Add Extension Office">
+    </form>
+  
+    <form id="farmerForm">
+      <h2>Farmer Details</h2>
+      <label for="farmerName">Farmer Name:</label>
+      <input type="text" id="farmerName" required>
+  
+      <label for="farmerLocation">Farmer Location:</label>
+      <input type="text" id="farmerLocation" required>
+  
+      
+      <input type="submit" value="Add Farmer">
+    </form>
+  
+    <form id="farmForm">
+      <h2>Farm Details</h2>
+      <label for="farmName">Farm Name:</label>
+      <input type="text" id="farmName" required>
+  
+      <label for="farmLocation">Farm Location:</label>
+      <input type="text" id="farmLocation" required>
+  
+      <input type="submit" value="Add Farm">
+    </form>
+  
+    <h2>Extension Offices</h2>
+    <table id="extensionTable">
+      <tr>
+        <th>Office Name</th>
+        <th>Office Location</th>
+      </tr>
+    </table>
+  
+    <h2>Farmers</h2>
+    <table id="farmerTable">
+      <tr>
+        <th>Farmer Name</th>
+        <th>Farmer Location</th>
+      </tr>
+    </table>
+  
+    <h2>Farms Details</h2>
+    <table id="farmTable">
+      <tr>
+        <th>Farm Name</th>
+        <th>Farm Location</th>
+      </tr>
+    </table>
+
+
+    <script src="./mane.js"></script>
+  
+  
+</body>
+</html>
